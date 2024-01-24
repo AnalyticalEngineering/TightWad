@@ -14,6 +14,18 @@
 		122CAAB42B5F468D0053E9FD /* TightWadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAB32B5F468D0053E9FD /* TightWadTests.swift */; };
 		122CAABE2B5F468D0053E9FD /* TightWadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAABD2B5F468D0053E9FD /* TightWadUITests.swift */; };
 		122CAAC02B5F468D0053E9FD /* TightWadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAABF2B5F468D0053E9FD /* TightWadUITestsLaunchTests.swift */; };
+		122CAAD02B5F53E20053E9FD /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAACF2B5F53E20053E9FD /* Transaction.swift */; };
+		122CAAD22B6079190053E9FD /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAD12B6079190053E9FD /* Color.swift */; };
+		122CAAD42B607A420053E9FD /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAD32B607A420053E9FD /* TransactionType.swift */; };
+		122CAAD62B607AD70053E9FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAD52B607AD70053E9FD /* Constants.swift */; };
+		122CAADA2B6081240053E9FD /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAD92B6081240053E9FD /* Budget.swift */; };
+		122CAADF2B6088DC0053E9FD /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAADE2B6088DC0053E9FD /* Tab.swift */; };
+		122CAAE12B6089830053E9FD /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAE02B6089830053E9FD /* TabPosition.swift */; };
+		122CAAE32B6089A30053E9FD /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAE22B6089A30053E9FD /* TabShape.swift */; };
+		122CAAE52B6089F00053E9FD /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAE42B6089F00053E9FD /* TabBarHome.swift */; };
+		122CAAE72B608E3A0053E9FD /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAE62B608E3A0053E9FD /* TransactionView.swift */; };
+		122CAAE92B608E910053E9FD /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAE82B608E910053E9FD /* ChartsView.swift */; };
+		122CAAEB2B608E9E0053E9FD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAEA2B608E9E0053E9FD /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,18 @@
 		122CAAB92B5F468D0053E9FD /* TightWadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TightWadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		122CAABD2B5F468D0053E9FD /* TightWadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TightWadUITests.swift; sourceTree = "<group>"; };
 		122CAABF2B5F468D0053E9FD /* TightWadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TightWadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		122CAACF2B5F53E20053E9FD /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		122CAAD12B6079190053E9FD /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		122CAAD32B607A420053E9FD /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		122CAAD52B607AD70053E9FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		122CAAD92B6081240053E9FD /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		122CAADE2B6088DC0053E9FD /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		122CAAE02B6089830053E9FD /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
+		122CAAE22B6089A30053E9FD /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		122CAAE42B6089F00053E9FD /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
+		122CAAE62B608E3A0053E9FD /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		122CAAE82B608E910053E9FD /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		122CAAEA2B608E9E0053E9FD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +99,10 @@
 		122CAA952B5F468A0053E9FD = {
 			isa = PBXGroup;
 			children = (
+				122CAADB2B6088B30053E9FD /* TabBarPackage */,
+				122CAACE2B5F51CA0053E9FD /* Helper */,
+				122CAACD2B5F51020053E9FD /* Views */,
+				122CAACC2B5F50F80053E9FD /* Models */,
 				122CAAA02B5F468A0053E9FD /* TightWad */,
 				122CAAB22B5F468D0053E9FD /* TightWadTests */,
 				122CAABC2B5F468D0053E9FD /* TightWadUITests */,
@@ -96,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				122CAAA12B5F468A0053E9FD /* TightWadApp.swift */,
-				122CAAA32B5F468A0053E9FD /* ContentView.swift */,
 				122CAAA52B5F468C0053E9FD /* Assets.xcassets */,
 				122CAAA72B5F468C0053E9FD /* TightWad.entitlements */,
 				122CAAA82B5F468C0053E9FD /* Preview Content */,
@@ -127,6 +154,63 @@
 				122CAABF2B5F468D0053E9FD /* TightWadUITestsLaunchTests.swift */,
 			);
 			path = TightWadUITests;
+			sourceTree = "<group>";
+		};
+		122CAACC2B5F50F80053E9FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				122CAACF2B5F53E20053E9FD /* Transaction.swift */,
+				122CAAD12B6079190053E9FD /* Color.swift */,
+				122CAAD32B607A420053E9FD /* TransactionType.swift */,
+				122CAAD92B6081240053E9FD /* Budget.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		122CAACD2B5F51020053E9FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				122CAAA32B5F468A0053E9FD /* ContentView.swift */,
+				122CAAE62B608E3A0053E9FD /* TransactionView.swift */,
+				122CAAE82B608E910053E9FD /* ChartsView.swift */,
+				122CAAEA2B608E9E0053E9FD /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		122CAACE2B5F51CA0053E9FD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				122CAAD52B607AD70053E9FD /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		122CAADB2B6088B30053E9FD /* TabBarPackage */ = {
+			isa = PBXGroup;
+			children = (
+				122CAADD2B6088C50053E9FD /* Model */,
+				122CAADC2B6088BD0053E9FD /* Views */,
+			);
+			path = TabBarPackage;
+			sourceTree = "<group>";
+		};
+		122CAADC2B6088BD0053E9FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				122CAADE2B6088DC0053E9FD /* Tab.swift */,
+				122CAAE02B6089830053E9FD /* TabPosition.swift */,
+				122CAAE22B6089A30053E9FD /* TabShape.swift */,
+				122CAAE42B6089F00053E9FD /* TabBarHome.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		122CAADD2B6088C50053E9FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +344,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				122CAAA42B5F468A0053E9FD /* ContentView.swift in Sources */,
+				122CAAD42B607A420053E9FD /* TransactionType.swift in Sources */,
+				122CAAD22B6079190053E9FD /* Color.swift in Sources */,
+				122CAAE52B6089F00053E9FD /* TabBarHome.swift in Sources */,
+				122CAADF2B6088DC0053E9FD /* Tab.swift in Sources */,
+				122CAAE72B608E3A0053E9FD /* TransactionView.swift in Sources */,
 				122CAAA22B5F468A0053E9FD /* TightWadApp.swift in Sources */,
+				122CAAEB2B608E9E0053E9FD /* SettingsView.swift in Sources */,
+				122CAAD02B5F53E20053E9FD /* Transaction.swift in Sources */,
+				122CAAE92B608E910053E9FD /* ChartsView.swift in Sources */,
+				122CAADA2B6081240053E9FD /* Budget.swift in Sources */,
+				122CAAD62B607AD70053E9FD /* Constants.swift in Sources */,
+				122CAAE12B6089830053E9FD /* TabPosition.swift in Sources */,
+				122CAAE32B6089A30053E9FD /* TabShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +520,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +559,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
