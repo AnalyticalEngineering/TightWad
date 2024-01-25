@@ -26,6 +26,19 @@
 		122CAAE72B608E3A0053E9FD /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAE62B608E3A0053E9FD /* TransactionView.swift */; };
 		122CAAE92B608E910053E9FD /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAE82B608E910053E9FD /* ChartsView.swift */; };
 		122CAAEB2B608E9E0053E9FD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CAAEA2B608E9E0053E9FD /* SettingsView.swift */; };
+		12F02E352B60CD9400C77655 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E342B60CD9400C77655 /* DateFilterView.swift */; };
+		12F02E372B60CE2100C77655 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E362B60CE2100C77655 /* TransactionCardView.swift */; };
+		12F02E392B60CE8900C77655 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E382B60CE8900C77655 /* AddTransactionView.swift */; };
+		12F02E3D2B60CED400C77655 /* FilterTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E3C2B60CED400C77655 /* FilterTransactionView.swift */; };
+		12F02E3F2B60CF4700C77655 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E3E2B60CF4700C77655 /* View+Extensions.swift */; };
+		12F02E412B60CF8F00C77655 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E402B60CF8F00C77655 /* Date+Extension.swift */; };
+		12F02E432B60D49100C77655 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E422B60D49100C77655 /* HeaderView.swift */; };
+		12F02E452B60D4EF00C77655 /* CustomSegmentedControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E442B60D4EF00C77655 /* CustomSegmentedControls.swift */; };
+		12F02E472B61843000C77655 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E462B61843000C77655 /* SideMenu.swift */; };
+		12F02E492B61845200C77655 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E482B61845200C77655 /* HapticManager.swift */; };
+		12F02E4B2B61900600C77655 /* ScoreCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E4A2B61900600C77655 /* ScoreCardView.swift */; };
+		12F02E4D2B61AA9B00C77655 /* ExpenseChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E4C2B61AA9B00C77655 /* ExpenseChart.swift */; };
+		12F02E4F2B61AAB800C77655 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F02E4E2B61AAB800C77655 /* ArcShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +82,19 @@
 		122CAAE62B608E3A0053E9FD /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 		122CAAE82B608E910053E9FD /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		122CAAEA2B608E9E0053E9FD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		12F02E342B60CD9400C77655 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		12F02E362B60CE2100C77655 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		12F02E382B60CE8900C77655 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		12F02E3C2B60CED400C77655 /* FilterTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionView.swift; sourceTree = "<group>"; };
+		12F02E3E2B60CF4700C77655 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		12F02E402B60CF8F00C77655 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		12F02E422B60D49100C77655 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		12F02E442B60D4EF00C77655 /* CustomSegmentedControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControls.swift; sourceTree = "<group>"; };
+		12F02E462B61843000C77655 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		12F02E482B61845200C77655 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		12F02E4A2B61900600C77655 /* ScoreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCardView.swift; sourceTree = "<group>"; };
+		12F02E4C2B61AA9B00C77655 /* ExpenseChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseChart.swift; sourceTree = "<group>"; };
+		12F02E4E2B61AAB800C77655 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +200,15 @@
 				122CAAE62B608E3A0053E9FD /* TransactionView.swift */,
 				122CAAE82B608E910053E9FD /* ChartsView.swift */,
 				122CAAEA2B608E9E0053E9FD /* SettingsView.swift */,
+				12F02E342B60CD9400C77655 /* DateFilterView.swift */,
+				12F02E362B60CE2100C77655 /* TransactionCardView.swift */,
+				12F02E382B60CE8900C77655 /* AddTransactionView.swift */,
+				12F02E3C2B60CED400C77655 /* FilterTransactionView.swift */,
+				12F02E422B60D49100C77655 /* HeaderView.swift */,
+				12F02E442B60D4EF00C77655 /* CustomSegmentedControls.swift */,
+				12F02E462B61843000C77655 /* SideMenu.swift */,
+				12F02E4A2B61900600C77655 /* ScoreCardView.swift */,
+				12F02E4C2B61AA9B00C77655 /* ExpenseChart.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +217,10 @@
 			isa = PBXGroup;
 			children = (
 				122CAAD52B607AD70053E9FD /* Constants.swift */,
+				12F02E3E2B60CF4700C77655 /* View+Extensions.swift */,
+				12F02E402B60CF8F00C77655 /* Date+Extension.swift */,
+				12F02E482B61845200C77655 /* HapticManager.swift */,
+				12F02E4E2B61AAB800C77655 /* ArcShape.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -344,19 +383,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				122CAAA42B5F468A0053E9FD /* ContentView.swift in Sources */,
+				12F02E492B61845200C77655 /* HapticManager.swift in Sources */,
 				122CAAD42B607A420053E9FD /* TransactionType.swift in Sources */,
+				12F02E4D2B61AA9B00C77655 /* ExpenseChart.swift in Sources */,
+				12F02E3D2B60CED400C77655 /* FilterTransactionView.swift in Sources */,
+				12F02E472B61843000C77655 /* SideMenu.swift in Sources */,
 				122CAAD22B6079190053E9FD /* Color.swift in Sources */,
 				122CAAE52B6089F00053E9FD /* TabBarHome.swift in Sources */,
 				122CAADF2B6088DC0053E9FD /* Tab.swift in Sources */,
+				12F02E392B60CE8900C77655 /* AddTransactionView.swift in Sources */,
+				12F02E432B60D49100C77655 /* HeaderView.swift in Sources */,
 				122CAAE72B608E3A0053E9FD /* TransactionView.swift in Sources */,
+				12F02E4B2B61900600C77655 /* ScoreCardView.swift in Sources */,
 				122CAAA22B5F468A0053E9FD /* TightWadApp.swift in Sources */,
 				122CAAEB2B608E9E0053E9FD /* SettingsView.swift in Sources */,
+				12F02E352B60CD9400C77655 /* DateFilterView.swift in Sources */,
+				12F02E412B60CF8F00C77655 /* Date+Extension.swift in Sources */,
 				122CAAD02B5F53E20053E9FD /* Transaction.swift in Sources */,
 				122CAAE92B608E910053E9FD /* ChartsView.swift in Sources */,
+				12F02E452B60D4EF00C77655 /* CustomSegmentedControls.swift in Sources */,
 				122CAADA2B6081240053E9FD /* Budget.swift in Sources */,
 				122CAAD62B607AD70053E9FD /* Constants.swift in Sources */,
 				122CAAE12B6089830053E9FD /* TabPosition.swift in Sources */,
 				122CAAE32B6089A30053E9FD /* TabShape.swift in Sources */,
+				12F02E3F2B60CF4700C77655 /* View+Extensions.swift in Sources */,
+				12F02E4F2B61AAB800C77655 /* ArcShape.swift in Sources */,
+				12F02E372B60CE2100C77655 /* TransactionCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
