@@ -13,5 +13,6 @@ struct TightWadApp: App {
         WindowGroup {
             TabBarHome()
         }
+        .modelContainer(for: [Transaction.self])
     }
 }
