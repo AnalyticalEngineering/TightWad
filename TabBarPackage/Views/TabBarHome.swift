@@ -23,16 +23,12 @@ struct TabBarHome: View {
             TabView(selection: $activeTab) {
                 TransactionView()
                     .tag(Tab.transactions)
-                
              ChartsView()
                     .tag(Tab.charts)
-                    
-                
                 SettingsView()
                     .tag(Tab.settings)
-            
             }
-            
+            .tint(appTint)
             CustomTabBar()
               
         }
@@ -41,13 +37,16 @@ struct TabBarHome: View {
     /// Custom Tab Bar
     /// With More Easy Customization
     @ViewBuilder
-    func CustomTabBar(_ tint: Color = .colorOrange, _ inactiveTint: Color = .colorBlue) -> some View {
+    var appTint: Color {
+        Constants.shared.tintColor
+    }
+    func CustomTabBar(_ tint: Color = .clear, _ inactiveTint: Color = .colorBlue) -> some View {
         /// Moving all the Remaining Tab Item's to Bottom
         HStack(alignment: .bottom, spacing: 0) {
             ForEach(Tab.allCases, id: \.rawValue) {
                 TabItem(
-                    tint: tint,
-                    inactiveTint: inactiveTint,
+                    tint: appTint,
+                    inactiveTint: appTint,
                     tab: $0,
                     animation: animation,
                     activeTab: $activeTab,
